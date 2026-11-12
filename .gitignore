@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+playwright-report/
+test-results/
+
+# Local environment files may contain secrets; only publish the empty template.
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+
+# Credentials and private key material
+.npmrc
+.pypirc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+*-credentials.json
+service-account*.json
+.ssh/
+.aws/
+.gnupg/
+id_rsa*
+id_ed25519*
+
+# Local caches, databases, and backups
+.cache/
+coverage/
+*.tsbuildinfo
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.backup
+.vercel/
+.netlify/

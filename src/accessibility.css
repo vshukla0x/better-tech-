@@ -1,0 +1,74 @@
+/* Loaded after layout styles: keep secondary copy readable on tinted surfaces. */
+.hero-meta,
+.support-key b,
+.filter-buttons button,
+.suggestions button,
+.muted,
+.hero-families > span:first-child,
+.example-bottom,
+.step-number,
+.quiet-label,
+.term-note,
+.faq-decoration span,
+.faq-decoration strong,
+.site-footer,
+.site-footer button:not(.footer-brand),
+.source-link > span,
+.quiz-top,
+.quiz-progress > div:first-child,
+.quiz-privacy,
+.tile-copy > span,
+.field-label span,
+.field-help,
+.suggestions > span,
+.skip-label,
+.priority-row label span,
+.your-setup dt,
+.tabs button,
+.shortlist-card details > ul,
+.checklist label > span > span {
+  color: #626e80;
+}
+.hero-visual::before {
+  max-width: 100%;
+  left: 0;
+}
+.recommendation-card > h3,
+.try-options h3 {
+  font-size: 12px;
+}
+.compatibility-item h3 {
+  font-size: 12px;
+}
+@media (max-width: 760px) {
+  .compatibility-item h3 {
+    font-size: 11px;
+  }
+}
+.nav-explore,
+.nav-result,
+.dialog-close,
+.wordmark,
+.footer-brand {
+  min-height: 44px;
+}
+@media (max-width: 760px) {
+  .text-button,
+  .filter-buttons button,
+  .suggestions button,
+  .unknown-button,
+  .site-footer button:not(.footer-brand) {
+    min-height: 44px;
+  }
+  .hero-meta,
+  .hero-families > span,
+  .hero-families > span:first-child,
+  .quiz-privacy,
+  .field-help,
+  .tile-copy > span,
+  .site-footer > div:first-child > span,
+  .site-footer > div:nth-child(2),
+  .site-footer button:not(.footer-brand) {
+    font-size: 10px;
+  }
+}
